@@ -190,8 +190,6 @@ The perfect sweet complement to your coffee."
 
 ### Ofertas
 
----
-
 Oferta 1: Café Mocha + 6 Donas /
 
 - Category: Vegetarian
@@ -268,3 +266,15 @@ Android app
 - Blog
 - CTA
 - Footer
+
+## Plan
+
+- Objetivo del Negocio / Business goal
+  Proporcionar experiencias excepcionales de café y delicias horneadas, fomentar la lealtad del cliente, y aumentar las ventas tanto en la cafetería como en productos para llevar a casa.
+
+- Objetivo del Usuario / User Goal
+  Proporcionar un lugar acogedor para disfrutar de una buena taza de café, conectarse con amigos o trabajar de manera productiva en un ambiente agradable.
+
+- Audiencia Objetivo / Target audience:
+  1 - Profesionales en movimiento, que viven en lima, y necesitan encontrar un lugar cómodo para trabajar mientras disfrutan de café de calidad antes o después del trabajo.
+  2 - Jovenes estudiantes universitarios, que necesitan un lugar para estudiar con acceso a café y aperitivos, o disfrutar de reuniones sociales en un entorno agradable.
