@@ -169,9 +169,15 @@
 /* PRODUCTS SECTION*/
 /*******************************/
 
-.products-menu {
+.section-products {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.menu-coffee,
+.menu-coffee-bags,
+.menu-dessert {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   /* background: #d8c0b8; */
   display: flex;
   align-items: center;
@@ -184,18 +190,27 @@
   justify-content: center;
 }
 
-.img-box {
+.img-box,
+.img-box-bags,
+.img-box-dessert {
   width: 100px;
-  width: 20vw;
-  height: 50rem;
+  width: 10vw;
+  height: 30rem;
   margin: 10px;
   border-radius: 20px;
   background-image: url("/img/black-coffee-001.webp");
-  /* background-image: url("img/cofee-frapuccino-001.webp"); */
   background-size: cover;
   background-position: center;
   position: relative;
   transition: width 0.5s;
+}
+
+.img-box-bags {
+  background-image: url("/img/bolsa-cafe-001.webp");
+}
+
+.img-box-dessert {
+  background-image: url("/img/croissants-002.webp");
 }
 
 .img-box:nth-child(2) {
@@ -215,14 +230,54 @@
   background-size: cover;
   background-position: center;
 }
-
 .img-box:nth-child(5) {
   background-image: url("/img/coffee-latte-002.webp");
   background-size: cover;
   background-position: center;
 }
 
-.img-box p {
+.img-box-bags:nth-child(2) {
+  background-image: url("/img/bolsa-cafe-002.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box-bags:nth-child(3) {
+  background-image: url("/img/bolsa-cafe-003.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box-dessert:nth-child(2) {
+  background-image: url("/img/donuts-001.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box-dessert:nth-child(2) {
+  background-image: url("/img/donuts-001.webp");
+  background-size: cover;
+  background-position: center;
+}
+.img-box-dessert:nth-child(3) {
+  background-image: url("/img/donuts-002.webp");
+  background-size: cover;
+  background-position: center;
+}
+.img-box-dessert:nth-child(4) {
+  background-image: url("/img/muffins-001.webp");
+  background-size: cover;
+  background-position: center;
+}
+.img-box-dessert:nth-child(5) {
+  background-image: url("/img/muffins-003.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box p,
+.img-box-bags p,
+.img-box-dessert p {
   color: #7c2d12;
   position: absolute;
   bottom: 0;
@@ -231,13 +286,17 @@
   transition: bottom 0.5s, opacity 0.5s;
 }
 
-.img-box:hover {
+.img-box:hover,
+.img-box-bags:hover,
+.img-box-dessert:hover {
   width: 300px;
   width: 30vw;
   cursor: pointer;
 }
 
-.img-box:hover p {
+.img-box:hover p,
+.img-box-bags:hover p,
+.img-box-dessert:hover p {
   opacity: 1;
   bottom: 25px;
 }
