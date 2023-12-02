@@ -27,7 +27,7 @@
 }
 
 .logo-text {
-  font-size: 2.4rem;
+  font-size: 3rem;
   line-height: 1.1;
   color: #7c2d12;
   font-weight: 700;
@@ -166,5 +166,82 @@
 }
 
 /*******************************/
-/* FEATURED IN SECTION */
+/* PRODUCTS SECTION*/
+/*******************************/
+
+.products-menu {
+  width: 100%;
+  height: 100vh;
+  /* background: #d8c0b8; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-box {
+  width: 100px;
+  width: 20vw;
+  height: 50rem;
+  margin: 10px;
+  border-radius: 20px;
+  background-image: url("/img/black-coffee-001.webp");
+  /* background-image: url("img/cofee-frapuccino-001.webp"); */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
+}
+
+.img-box:nth-child(2) {
+  background-image: url("/img/coffee-frapuccino-001.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box:nth-child(3) {
+  background-image: url("/img/coffee-mocha-001.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box:nth-child(4) {
+  background-image: url("/img/coffee-espresso-001.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box:nth-child(5) {
+  background-image: url("/img/coffee-latte-002.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-box p {
+  color: #7c2d12;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  opacity: 0;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:hover {
+  width: 300px;
+  width: 30vw;
+  cursor: pointer;
+}
+
+.img-box:hover p {
+  opacity: 1;
+  bottom: 25px;
+}
+
+/*******************************/
+/*  */
 /*******************************/
