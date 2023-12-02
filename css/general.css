@@ -248,7 +248,7 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  color: #7c2d12;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -257,7 +257,7 @@ body {
 
 .link:hover,
 .link:active {
-  color: #cf711f;
+  color: #965741;
   border-bottom: 1px solid transparent;
 }
 
@@ -284,7 +284,7 @@ body {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgb(230, 125, 34, 0.5);
+  box-shadow: 0 0 0 0.55rem rgb(190, 150, 137, 0.5);
 }
 
 /* HELPER/SETTINGS CLASSES */

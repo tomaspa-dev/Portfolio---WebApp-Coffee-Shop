@@ -26,6 +26,13 @@
   height: 8.6rem;
 }
 
+.logo-text {
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: #7c2d12;
+  font-weight: 700;
+}
+
 /*******************************/
 /* NAVIGATION */
 /*******************************/
@@ -62,14 +69,12 @@
   width: 100%;
   background-color: #7c2d12;
 
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
+  transform: scale(0, 1);
+  transition: transform 0.3s ease;
 }
 
 .main-nav-link:hover::after {
-  transform-origin: left;
-  transform: scaleX(1);
+  transform: scale(1, 1);
 }
 
 .main-nav-link:hover,
@@ -158,42 +163,6 @@
   padding: 2.5rem 3rem;
   width: 100%;
   height: 100%;
-}
-
-.section-hero img {
-  width: 100%;
-}
-
-.delivered-meals {
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-  margin-top: 8rem;
-}
-
-.delivered-imgs {
-  display: flex;
-}
-
-.delivered-imgs img {
-  height: 4.8rem;
-  width: 4.8rem;
-  border-radius: 50%;
-  margin-right: -1.6rem;
-  border: 3px solid #f2eae7;
-}
-
-.delivered-imgs img:last-child {
-  margin: 0;
-}
-
-.delivered-text {
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-
-.delivered-text span {
-  color: #cf711f;
 }
 
 /*******************************/
